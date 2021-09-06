@@ -30,4 +30,6 @@ Main (Tidlegare Master) --> Hoved dokumentet
 New Branch --> Til venstre for "Grein-Navn" i GIT-Menyen (Pain)
     - Commits i Grein fortsetter framover på den spesifikke greina
 Merge --> På menyen - Skifter frå "Grein Navn" til Main.
-Flette greina inn i Main ved: - Terminal --> git merge "Grein navn"
+Flette greina inn i Main ved:
+  I grein: Save - Commit - Pull - Push -> Skift til "Main"
+  I main: Terminal --> git merge "Grein navn"
