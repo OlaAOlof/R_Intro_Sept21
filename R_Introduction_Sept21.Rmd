@@ -24,10 +24,3 @@ Latex: x_{ij}
   Ex - 1
 Skrift:
 Latex: X^12 --> X^{2}
-
-Korleis lage GIT-Greiner:
-Main (Tidlegare Master) --> Hoved dokumentet  
-New Branch --> Til venstre for "Grein-Navn" i GIT-Menyen (Pain)
-    - Commits i Grein fortsetter framover på den spesifikke greina
-Merge --> På menyen - Skifter frå "Grein Navn" til Main.
-Flette greina inn i Main ved: - Terminal --> git merge "Grein navn"
