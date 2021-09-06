@@ -7,14 +7,14 @@ header-includes:
 - \usepackage{amsmath}
 - \usepackage{mathtools}
 output:
-  html_notebook: default
+  pdf_document:
+    latex_engine: pdflatex
   word_document:
   html_document:
     toc: yes
     toc_depth: '5'
     df_print: paged
-  pdf_document:
-    latex_engine: pdflatex
+  html_notebook: default
 editor_options: 
   markdown: 
     wrap: sentence
