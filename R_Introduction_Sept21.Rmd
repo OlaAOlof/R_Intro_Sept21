@@ -3,16 +3,24 @@ title: "R Notebook"
 output: html_notebook
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+# For å skriva mattematikk i R (Latex):
 
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
+## "Cheatsheet":
+{}        --> Alt Gr - 7/0
+Sum       --> \ (Venstre for backspace)
+Gonging   --> \dot
+Brøk  x/y --> \frac{x}{y}
+Bar       --> \bar{X}
 
-```{r}
-plot(cars)
-```
+## "Subscript": nedre/senka bokstav eller tal: _
+  Ex - 1
+Skrift:
+Latex: X_i
+  Ex - 2
+Skrift:
+Latex: x_{ij}
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
-
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
-
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+## "Superscript": Opphøgd
+  Ex - 1
+Skrift:
+Latex: X^12 --> X^{2}

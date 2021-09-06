@@ -4,17 +4,20 @@ bibliography: ds_course_tmpl.bib
 csl: springer-basic-author-date.csl
 latex_macros: true
 header-includes:
+- \usepackage{amsmath}
 - \usepackage{mathtools}
 output:
+  html_notebook: default
+  word_document:
   html_document:
     toc: yes
     toc_depth: '5'
     df_print: paged
-  word_document:
   pdf_document:
     latex_engine: pdflatex
-  html_notebook: default
-  odt_document:  default
+editor_options: 
+  markdown: 
+    wrap: sentence
 ---
 
     ---
@@ -40,6 +43,16 @@ Her settes også navnet på `Bibliography`filen vi vil benytte.
 Den inneholder vår samling av referanser.
 Bare de referansene vi siterer i teksten vil bli lagt til referanselisten.
 RStudio vil selv endre litt i YAML, spesielt gjelder dette `output:` verdien som blir endret hvis vi velger et annet format i `Preview`menyen.
+
+# Mattetest
+
+Her tester vi matte - u.brøk $\bar{x} = \sum_{i=1}^{N} x_i/N$
+
+Her tester vi matte - brøk $\bar{x} = \frac{\sum_{i=1}^{N} x_i}{N}$
+
+Display (Eige avsnitt) - U.brøk: $$\bar{x} = \sum_{i=1}^{N} x_i/N$$
+
+Display (Eige avsnitt) - Brøk: $$\bar{x} = \frac{\sum_{i=1}^{N} x_i}{N}$$
 
 ```{r setup, echo=FALSE}
 library(pander)
